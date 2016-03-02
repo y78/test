@@ -1,10 +1,14 @@
 {
     "name": "y78/test",
+    "type": "library",
     "authors": [
         {
             "name": "y78",
             "email": "n.yd@yandex.ru"
         }
     ],
+    "autoload": {
+        "psr-0": { "Y78\\Base": "src/" }
+    },
     "require": {}
 }
